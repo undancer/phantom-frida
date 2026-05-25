@@ -6,11 +6,11 @@ on:
       frida_version:
         description: 'Frida version (e.g. 17.7.2)'
         required: true
-        default: '17.7.2'
+        default: '17.9.2'
       custom_name:
         description: 'Custom name (replaces "frida" everywhere)'
         required: true
-        default: 'ajeossida'
+        default: 'aaaqzwtd'
       arch:
         description: 'Target architecture(s)'
         required: true
@@ -21,6 +21,8 @@ on:
           - android-arm
           - android-arm64,android-arm
           - android-arm64,android-arm,android-x86_64,android-x86
+          - android-x86_64,android-x86
+
       port:
         description: 'Custom port (empty = keep 27042)'
         required: false
